@@ -1,4 +1,4 @@
-# Ghost in the Shellcode 2014: lugkist
+# Ghost in the Shellcode 2014: radioactive
 
 **Category:** Crypto
 **Points:** 250
