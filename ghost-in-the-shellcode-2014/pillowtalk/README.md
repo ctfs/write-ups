@@ -22,4 +22,3 @@ Then, … (TODO)
 
 * <https://systemoverlord.com/blog/2014/01/19/ghost-in-the-shellcode-2014-pillowtalk/>
 * <https://www.youtube.com/watch?v=G50typU3mLg>
-* <https://systemoverlord.com/blog/2014/01/19/ghost-in-the-shellcode-2014-pillowtalk/>
