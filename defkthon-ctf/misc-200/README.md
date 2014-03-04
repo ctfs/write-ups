@@ -68,4 +68,4 @@ myImage.save("image.jpeg")
 
 The image presented, when cropped and flipped, shows the following:
 
-![flag{ youc@n'tseeme }](image.jpg)
+![flag{ youc@n'tseeme }](image.jpeg)
