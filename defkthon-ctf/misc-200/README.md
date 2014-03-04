@@ -39,4 +39,6 @@ This results in [the following image](flag.png):
 
 ## Other write-ups
 
+### Using Python and PIL
+
 * none yet
