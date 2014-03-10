@@ -1,1 +1,0 @@
-#PPC write-ups

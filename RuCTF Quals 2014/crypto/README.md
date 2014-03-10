@@ -1,1 +1,0 @@
-#Crypto write-ups
