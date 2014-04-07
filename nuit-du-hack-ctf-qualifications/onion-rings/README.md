@@ -159,7 +159,9 @@ Looking at `/var/www/blog/index.php` it’s obvious that the blog is powered by 
 Most of the files in `/var/www/onion_rings` could be retrieved; others couldn’t because they were too large. [They’re in the `source` folder](source) if you’re curious, but note that these files were not helpful at all for getting the flag.
 
 ## Other write-ups
-Another approach would be using remote avatar upload. you could start netcat on your host with `nc -vlp 80` to listen on port 80(attention: you host should NOT be behind NAT). Then enter the URL like `http://w.x.y.z/1.jpg` and wait for real IP in your terminal.
+Another approach would be using remote avatar upload. 
+![ScreenShot](http://csrc.tamuc.edu/css/wp-content/uploads/2014/04/avatar_upload.png)
+Then you could start netcat on your host with `nc -vlp 80` to listen on port 80(attention: you host should NOT be behind NAT). Then enter the URL like `http://w.x.y.z/1.jpg` and wait for real IP in your terminal.
 ```
 Ncat: Version 6.25 ( http://nmap.org/ncat )
 Ncat: Listening on :::80
