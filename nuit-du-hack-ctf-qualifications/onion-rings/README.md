@@ -171,4 +171,3 @@ Host: w.x.y.z
 Accept: */*
 ```
 visiting `http://212.83.153.197/` , you can clearly find the Flag.
-* none yet
