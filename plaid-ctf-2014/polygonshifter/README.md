@@ -53,7 +53,7 @@ arr[0].value = "admin";
 arr[1].value = "' or (password LIKE '%a%') and 1='1";
 ```
 
-If we successfully log in as admin with these values, we know that our query succeeded.
+If we successfully log in as admin with these values, we know that our query succeeded and that there's an `a` in the password.
 
 For the full script, see [the source](./client.js) (run the script as `phantomjs client.js "(password like 'a%')"`).
 
