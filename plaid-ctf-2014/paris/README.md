@@ -194,39 +194,6 @@ good_boy_final:
 
 The base of memory seems to be where the password read from the keyboard is stored (00401490). What the VM code appears to be doing is pushing some values to the stack in the first loop and in the second loop it compares the stack with the values at MEM_100h. Also note the use of r0 which gets changed in each attempt to decode an instruction.
 
-In a more pseudocode style:
-<pre><code>
-r3 = 0
-while True:
-	r7 = word[r3] - 0x3332
-	r7 = ~bswap(r7) # 12 --> 0xfe00
-	if r7 == 0x3133:  # this is the value you would get for 0000 in the password
-		break
-	r6 = r7 & 0xff00 >> 8
-	r7 = r7 & 0xff
-	r7 = r6 ^ r7
-	r6 = 0x200 + r7 * 2
-	r7 = word[r6]
-	r7 = bswap(r7)
-	r7 = r7 ^ pop(r6)
-	push(r6)
-	push(r7)
-	xor_200h(r3)
-	r3 += 1
-r7 = 0
-r2 = 0x100
-while True:
-	r5 = word[r2]
-	r5 = bswap(r5)
-	r2 += 2
-	r3 = pop()		# top of stack
-	if r5 == 0xaf21:
-		success = True
-		break
-	if r5 != r3:
-		break
-</pre></code>
-
 And this (in reverse) is how the stack should look like:
 <pre><code>
 .text:00401590 dw 2E0Bh
