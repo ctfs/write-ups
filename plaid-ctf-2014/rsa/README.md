@@ -23,6 +23,7 @@ The modulus and exponent of the public key can be extracted using the following 
     cat public.pub | grep -v -- ----- | tr -d '\n' | base64 -d | openssl asn1parse -inform DER -i -strparse 18
 
 which results in:
+
     0:d=0  hl=3 l= 137 cons: SEQUENCE          
     3:d=1  hl=3 l= 129 prim:  INTEGER           :DBFABDB1495D3276E7626B84796E9FC20FA13C1744F10C8C3F3E3C2C6040C2E7F313DFA3D1FE10D1AE577CFEAB7452AA53102EEF7BE0099C022560E57A5C30D50940642D1B097DD2109AE02F2DCFF8198CD5A395FCAC4266107848B9DD63C387D2538E50415343042033EA09C084155E652B0F062340D5D4717A402A9D806A6B
     135:d=1  hl=2 l=   3 prim:  INTEGER           :010001
