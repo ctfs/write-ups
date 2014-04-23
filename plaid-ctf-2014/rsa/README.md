@@ -8,6 +8,8 @@
 
 ## Write-up
 
+*by Steven from [Hacknam Style](http://www.hacknamstyle.net)*
+
 With some Googling, a tool can be found to recover corrupted RSA private keys,
 linked to the paper ["Reconstructing RSA Private Keys from Random Key Bits" by Nadia Heninger and Hovav Shacham][1].
 
