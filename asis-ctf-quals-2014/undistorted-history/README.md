@@ -9,7 +9,7 @@
 
 ## Write-up
 
-Checking the location on the map view ([undistorted_history.png]) revealed that the Challenge was located at the Persian Gulf.
+Checking the location on the map view ![Image](undistorted_history.png) revealed that the Challenge was located at the Persian Gulf.
 
 The flag is `Persian Gulf`.
 
