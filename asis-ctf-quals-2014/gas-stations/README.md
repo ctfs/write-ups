@@ -16,4 +16,6 @@
 
 ## Other write-ups
 
-* none yet
+```
+http://rentjong-team.blogspot.be/2014/05/asis-quals-2014-write-up-gas-stations.html
+```
