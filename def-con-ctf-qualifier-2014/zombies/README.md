@@ -10,6 +10,9 @@
 
 ## Write-up
 
+TODO:
+* Add detailed challenge description
+
 Here is a working example:
 
 ``` python
