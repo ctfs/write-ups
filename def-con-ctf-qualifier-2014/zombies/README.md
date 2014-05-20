@@ -113,7 +113,7 @@ def calculate_position(zx, zy, px, py, eta, mytime):
 
     return new_x, new_y
 
-def fucking_shoot(angle, x, y, gun="r"):
+def shoot(angle, x, y, gun="r"):
 
     dump = ""
     if gun == 'r':
@@ -176,10 +176,10 @@ while(True):
     # Hint said 50ish... not enough pistolling at 50ish
     if x < 55 and pcpt < 43:
         a1, a2 = calculate_angle(pistol_velocity, x, y)
-        data = fucking_shoot(a2, x, y, gun='p')
+        data = shoot(a2, x, y, gun='p')
     else:
         a1, a2 = calculate_angle(riffle_velocity, x, y)
-        data = fucking_shoot(a2, x, y, gun='r')
+        data = shoot(a2, x, y, gun='r')
     if data.lower().find("flag") != -1:
         break
 
