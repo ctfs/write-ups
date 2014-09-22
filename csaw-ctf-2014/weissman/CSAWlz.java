@@ -72,10 +72,10 @@ public class CSAWlz {
     private static short doHash(byte bytesToHash[])
     {
         int hash = 0x55aa55aa;
-        hash ^= (  (hash << 5) + bytesToHash[0] + (hash >>> 2));
-        hash ^= (  (hash << 5) + bytesToHash[1] + (hash >>> 2));
-        hash ^= (  (hash << 5) + bytesToHash[2] + (hash >>> 2));
-        hash ^= (  (hash << 5) + bytesToHash[3] + (hash >>> 2));
+        hash ^= ((hash << 5) + bytesToHash[0] + (hash >>> 2));
+        hash ^= ((hash << 5) + bytesToHash[1] + (hash >>> 2));
+        hash ^= ((hash << 5) + bytesToHash[2] + (hash >>> 2));
+        hash ^= ((hash << 5) + bytesToHash[3] + (hash >>> 2));
         return (short)hash;
     }
     
