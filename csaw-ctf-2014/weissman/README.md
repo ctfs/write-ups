@@ -48,18 +48,18 @@ Then in a loop, do this:
 - _control byte_ & 0b00000001) != 0b00000001; to determine if the block is _compressed_ or not (if the statement evaluates to true, the block is compressed)
  
 If the block is not _compressed_:
--- read _size_ number of bytes from the _input_ and store them in a _buffer_.
--- create a _hash_ of the first 4 bytes in the buffer
--- store the buffered bytes in the _hashmap_ using the _hash_ as the key
--- write the _buffer_ to _output_
--- read the next _control byte_ if it exists and restart the loop
+- read _size_ number of bytes from the _input_ and store them in a _buffer_.
+- create a _hash_ of the first 4 bytes in the buffer
+- store the buffered bytes in the _hashmap_ using the _hash_ as the key
+- write the _buffer_ to _output_
+- read the next _control byte_ if it exists and restart the loop
 
 if the block is _compressed_:
--- read two bytes from the _input_, these bytes are the _hash_
--- using the _hash_ as the key, get the bytes stored in the _hashmap_ 
--- read _size_ number of bytes from the bytes you just retrieved from the hashmap into a _buffer_
--- write the bytes int the _buffer_ to the _output_
--- read next _control byte_ if it exists and retsart the loop
+- read two bytes from the _input_, these bytes are the _hash_
+- using the _hash_ as the key, get the bytes stored in the _hashmap_ 
+- read _size_ number of bytes from the bytes you just retrieved from the hashmap into a _buffer_
+- write the bytes int the _buffer_ to the _output_
+- read next _control byte_ if it exists and retsart the loop
 
 when you find that the next _control byte_ doesn't exist, you are done and can write the _output_ to disk.
 
