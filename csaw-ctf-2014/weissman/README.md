@@ -37,11 +37,11 @@ Here is a [Java-Based solution](CSAWlz.java) to this challenge.
 
 During the CTF, it seems that most (probably all) of the people who solved it, didn't completely decompress the files contained within the archive, but were able to get the important file (key.jpg) readable enough simply by filling the space required with zeros, as described in the link below.
 
-After the CTF was complete, I asked to author (RyanWithZombies) if he was going to do a write up, but he said he wasnt and linked me to the C++ source he used to compress the archive. I was able to port the decompressing and hashing code to Java and incorporate it into the code I wrote during the CTF (side note: our team didn't actually get the key in time...oh well).
+After the CTF was complete, I asked to author (RyanWithZombies) if he was going to do a write up, but he said he wasn't and linked me to the C++ source he used to compress the archive (https://gist.github.com/withzombies/909b403852ea1e31f553). I was able to port the decompressing and hashing code to Java and incorporate it into the code I wrote during the CTF. Our team didn't actually get the key in time (oh well) but i was interested enough to keep poking at this until I got it to work.
 
 Roughly, the process of extracting a single file is this:
-- first, create a _hashmap_ store store uncompressed data blocks
-- read the first byte from teh _input_, which is a _control byte_
+- first, create a _hashmap_ to store uncompressed data blocks
+- read the first byte from the _input_, which is a _control byte_
  
 Then in a loop, do this:
 - _control byte_ >> 1;  to extract the _size_ of the current data block
