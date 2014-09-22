@@ -58,8 +58,8 @@ if the block is _compressed_:
 - read two bytes from the _input_, these bytes are the _hash_
 - using the _hash_ as the key, get the bytes stored in the _hashmap_ 
 - read _size_ number of bytes from the bytes you just retrieved from the hashmap into a _buffer_
-- write the bytes int the _buffer_ to the _output_
-- read next _control byte_ if it exists and retsart the loop
+- write the bytes in the _buffer_ to the _output_
+- read the next _control byte_ if it exists and retsart the loop
 
 when you find that the next _control byte_ doesn't exist, you are done and can write the _output_ to disk.
 
