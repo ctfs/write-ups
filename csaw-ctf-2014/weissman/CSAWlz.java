@@ -22,7 +22,7 @@ public class CSAWlz {
         String homedir = System.getProperty("user.home");
 
         // read the file from disk
-        FileInputStream data = new FileInputStream(homedir+"/desktop/csaw2014/weissman.csawlz");
+        FileInputStream data = new FileInputStream(homedir+"/csaw2014/weissman.csawlz");
 
         // create input buffered stream to hold the raw bytes
         BufferedInputStream bufferedInput = new BufferedInputStream(data, 1024);
@@ -43,7 +43,7 @@ public class CSAWlz {
         int fileCount = ByteBuffer.wrap(fileCountData).order(ByteOrder.LITTLE_ENDIAN).getInt();
         System.out.println(" File Count:  " + fileCount);
 
-        extract(bufferedInput,fileCount,homedir+"/desktop/csaw2014/");
+        extract(bufferedInput,fileCount,homedir+"/csaw2014/");
     }
 
     /**
@@ -106,7 +106,7 @@ public class CSAWlz {
             byte fdata_1[] = readData(input, csize1_int);
             File outputFile = new File(outputDirectory+fileName);
             Files.createFile(outputFile.toPath());
-            OutputStream outputStream = new FileOutputStream(outputDirectory + fileName,true);//"test" + i);
+            OutputStream outputStream = new FileOutputStream(outputDirectory + fileName,true);
             ByteArrayOutputStream file = new ByteArrayOutputStream(fdata_1.length);
             decompress(file, fdata_1);
             file.writeTo(outputStream);
