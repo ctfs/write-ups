@@ -10,7 +10,14 @@
 
 ## Write-up
 
-(TODO)
+One possible solution is:
+Go to dotabuff.com
+Enter fuzyll and click matches
+Click the seventh match (At the time of CSAW) where it says "Won Match"
+The URL will display "http://www.dotabuff.com/matches/903461176" (Match ID is 903461176)
+Go to dotabank.com
+Enter 903461176
+Get the replay and get the flag
 
 ## Other write-ups
 
