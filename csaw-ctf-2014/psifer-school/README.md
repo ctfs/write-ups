@@ -14,9 +14,10 @@
 
 ## Write-up
 
-(TODO)
+* [Full write-up by bt3gl](https://gist.github.com/bt3gl/a8617848ccb37e56034d)
 
 ## Other write-ups and resources
 
 * [Exploit written in Perl by @dz-coder](https://gist.github.com/anonymous/b16f705b728cbfd8b413)
 * [Exploit written in PHP by @stypr](https://www.irccloud.com/pastebin/eZAoqsNy)
+* [Exploit written in Python by @bt3gl](https://github.com/bt3gl/CTFs-and-Hacking-Scripts-and-Tutorials/tree/master/2014-CSAW-CTF/cryptography/crypto-200)
