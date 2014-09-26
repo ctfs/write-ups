@@ -107,6 +107,6 @@ var y=_0xee0b[0];
 The flag is `Those Fluffy Bunnies Make Tummy Bumpy`.
 
 ## Other write-ups and resources
-
+* [By @bt3gl](https://gist.github.com/bt3gl/4bddaed9e5cc246e51f5)
 * <http://balidani.blogspot.com/2014/09/csaw14-fluffy-no-more-writeup.html>
 * <http://sugarstack.io/csaw2014-fluffy-no-more/>
