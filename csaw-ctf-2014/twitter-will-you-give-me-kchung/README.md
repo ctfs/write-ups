@@ -8,7 +8,8 @@
 
 ## Write-up
 
-(TODO)
+If you looked at the judges page, under Keven Chung's bio it gave his twitter handle.
+Answer was poopsec
 
 ## Other write-ups
 
