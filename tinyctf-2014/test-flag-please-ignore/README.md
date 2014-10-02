@@ -25,4 +25,17 @@ The flag is `flag{hello_world}`.
 
 ## Other write-ups
 
-* none yet
+Well, this is interesting, how long is it?
+
+```bash
+python -c "print len('666c61677b68656c6c6f5f776f726c647d')"
+
+34
+```
+
+# Well, that's not a hash length I know of...hmmm, what is it in ascii?
+
+```bash
+python -c "print '666c61677b68656c6c6f5f776f726c647d'.decode('hex')"
+MONEY!
+```
