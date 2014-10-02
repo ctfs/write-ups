@@ -33,7 +33,7 @@ python -c "print len('666c61677b68656c6c6f5f776f726c647d')"
 34
 ```
 
-# Well, that's not a hash length I know of...hmmm, what is it in ascii?
+That's not a hash length I know of...hmmm, what is it in ascii?
 
 ```bash
 python -c "print '666c61677b68656c6c6f5f776f726c647d'.decode('hex')"
