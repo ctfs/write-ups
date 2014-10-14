@@ -21,4 +21,4 @@
 
 * [Exploit written in Perl by @dz-coder](https://gist.github.com/anonymous/b16f705b728cbfd8b413)
 * [Exploit written in PHP by @stypr](https://www.irccloud.com/pastebin/eZAoqsNy)
-* [Full write-up by @bt3gl](https://gist.github.com/bt3gl/a8617848ccb37e56034d)
+* [bt3gl's](http://bt3gl.github.io/csaw-ctf-2014-cryptography-200.html)
