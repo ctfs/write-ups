@@ -71,7 +71,7 @@ def download_and_process(pic):
 	dec_counter()
 
 
-while level <= 9001:
+while level <= 40:
 	init_page()
 	done_recv = False
 	counter = 0

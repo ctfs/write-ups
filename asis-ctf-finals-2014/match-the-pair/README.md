@@ -12,6 +12,7 @@
 
 When we visit the given url we find a page where we need to play the game memory. 
 We get images with a circle in them and need to match the pairs that have the same circle color like the two examples below.
+After beating 40 levels we can find the flag at `http://asis-ctf.ir:12443/flag`
 
 ![](example.png)
 ![](example2.png)
