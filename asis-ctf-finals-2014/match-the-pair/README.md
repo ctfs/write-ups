@@ -10,7 +10,26 @@
 
 ## Write-up
 
-(TODO)
+When we visit the given url we find a page where we need to play the game memory. 
+We get images with a circle in them and need to match the pairs that have the same circle color like the two examples below.
+
+![](example.png)
+![](example2.png)
+
+There are 16 images (so 8 pairs) numbered 0 to 15 which can be found on `http://asis-ctf.ir:12443/pic/<pic number>`
+
+Checking the page's javascript we find that when a user selects a pair the page sends a GET request to `http://asis-ctf.ir:12443/send?first=<pic number1>&second=<pic number2>"`
+
+The server then responds with:
+* __OK__ the pair is correct
+* __e__ the pair is not correct
+* __Done__ all pairs have been found, you can go to the next level
+
+We then wrote a script that downloaded all 16 images and uses [OpenCV](http://opencv.org/) to detect the circle so we could find the pairs.
+
+<match_the_pair.py>
+
+Letting it run gave us the flag: `ASIS_28ca740e382225131fc0501d38cf5d30`
 
 ## Other write-ups and resources
 

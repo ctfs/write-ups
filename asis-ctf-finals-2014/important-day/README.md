@@ -53,7 +53,7 @@ The challenge suggests we needed a date in the format `+%Y:%m:%d:%H:%M`. This me
 Using wireshark we found that the first packet in the provided pcap file had with timestamp `1412157562`, so the system must've been started some time before that.
 
 We brute forced the flag using the following script:
-```
+```python
 import datetime
 import hashlib
 
