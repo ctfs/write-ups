@@ -25,9 +25,9 @@ The server then responds with:
 * __e__ the pair is not correct
 * __Done__ all pairs have been found, you can go to the next level
 
-We then wrote a script that downloaded all 16 images and uses [OpenCV](http://opencv.org/) to detect the circle so we could find the pairs.
+We then wrote [a script](match_the_pair.py) that downloaded all 16 images and uses [OpenCV](http://opencv.org/) to detect the circle so we could find the pairs.
 
-<match_the_pair.py>
+
 
 Letting it run gave us the flag: `ASIS_28ca740e382225131fc0501d38cf5d30`
 
