@@ -7,6 +7,8 @@
 > Find the bug.
 >
 > ![](findthebug.png)
+>
+> **Hint:** it's a "word".
 
 ## Write-up
 
