@@ -8,7 +8,21 @@
 
 ## Write-up
 
-(TODO)
+`the following solution involves some random guessing, hunches, and curiosity`
+
+The statement `Any guest is always welcome` gave hints about a guest or public account of perhaps a user account.
+After testing some combinations of `username: guest` and `password: <blank>` or `welcome ` or `guest` to the login form that's displayed when you open 10.13.37.21 from a web browser, we switched to testing it for SSH login.
+
+`ssh guest@10.13.37.21` and it seems that an ssh daemon is actually up.
+After a few connection attempts, we discovered that the password is also `guest`.
+
+Navigating and listing the directory of `/var/www` gave up a `html` folder, and `ls /var/www/html` reveals some folders and an `index.php`
+Running `cat /var/www/html/index.php` reveals some interesting PHP code on top of the file.
+
+One line reads
+> The secret is behind 0f388689dc4728cfde0de9a1ee47c8d3 :)
+
+Googling `0f388689dc4728cfde0de9a1ee47c8d3` reveals that it is a md5 hash of `ididyourmom` which is the flag.
 
 ## Other write-ups and resources
 
