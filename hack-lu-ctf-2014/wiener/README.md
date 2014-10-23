@@ -38,7 +38,7 @@ The format of the base64 blob is a set of (len[4], item[len]) for the `identifie
 
 We then recover `d` and the `phi` [totient](http://en.wikipedia.org/wiki/Euler%27s_totient_function) thanks to the Wiener attack, calculate `p` (or `q`) and reuse the `asn1_encode_priv_key` python function from the original challenge to generate the private key.
 
-The [attack is implemented in Python](https://github.com/pablocelayes/rsa-wiener-attack) and we eventually end up with the following code :
+The [attack is implemented in Python](https://github.com/pablocelayes/rsa-wiener-attack) (you need to clone the git repo of the attack to get the correct import) and we eventually end up with the following code :
 
 ```python
 import ContinuedFractions, Arithmetic, RSAvulnerableKeyGenerator
