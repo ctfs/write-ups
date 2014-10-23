@@ -11,7 +11,11 @@
 
 ## Write-up
 
-The challenge name give an hint about Wiener, and the python code shows that RSA is involved. After reading the [attack details](http://en.wikipedia.org/wiki/Wiener%27s_attack), we are able to retrieve the private exponent `d` from the pair (e, n) as it is small enough.
+The challenge name gives a hint about Wiener, and the python code shows that RSA is involved. After reading the [attack details](http://en.wikipedia.org/wiki/Wiener%27s_attack), we are able to retrieve the private exponent `d` from the pair (e, n) if `d` is small enough. The challenge code gives us :
+
+```python
+d = prng.getrandbits(2048 // 5)
+```
 
 We can extract the pair (e, n) through the p command:
 
@@ -217,7 +221,7 @@ We verify that the public key generated from the private key is the same :
 ssh-rsa AAAAB3NzaC1yc2EAAAEAAoX41P4pzhFgXt8iGGiTfBtwrjduNNZ/m7eMKaLXnKRqYOoCpw/bQOgFtdhUJVlosrHwQ5Y9zWFxTOT8XHDsxNdWrRaF1mHbOdFagB0cOC7ZegSPD4XZCcgRaR0//iYutwzNH6fboap5E58hwUs9/pU0BJHP86WmrpYEMpV4259bzBkuFqpi9oeoA45gwBUY+MyqC+/ladra6OSTEKejw73c9jf8guU0C+9BBbUztqUxiVZQsu+jN9lMenZEd2e1EpoEvPPNlbtg9r/RoSZYUwEkrYxv1xZSuODrSC/MR1BDtBDfxP5fvGvaCMphJEKEpKtbMRvGad8MdTUmp5waVwAAAQACrrY39hUq/U+zot0WWuydW0XnDSuC54o1P3oXUYWdGW9Wy20RcAGV8Qaac9nlcQlQuBQimrTFVJODwsh+DNl/kEdIoTAkANx2tCWR2hfauvlGqq8WQPEyevFr5FuIMGA5R6nDMJyk1syfGivP2s8oX7wvcw5RWuHZNZHM2Y9cRnTsSlhZJkcA9wCk9Nz3w8NbvFefbr+A2jPGwR9oZVCSu+Zw1SJbjlcdWW/kJttZpqBar3ezkXRIss+8s71ke0Z3KxMTP8aP+ryzdSNyuUmjcEuFlt9KRPCFOT7iv4D485NxntlKs0iFL2peDEk++jLaW/YBBjoDO+r3O6R9ggXb
 ```
 
-And we copy the private key in the `bla` file and log into the sheriff vault:
+We copy the private key in the file `bla` and log into the sheriff vault:
 
 ```bash
 % ssh -p 1427 -i bla sheriff@wildwildweb.fluxfingers.net 
