@@ -36,7 +36,7 @@ Let’s feed this message to the bot for decoding:
 ```
 22:38:44 <mathiasbynens> !base64d aGkNCklOVklURSBtYXRoaWFzYnluZW5zICNoYWNrbHUtc2VjcmV0LWNoYW5uZWw=
 22:38:44 <barmixing-bot> hi
-22:38:44 <barmixing-bot> Invite to join #hacklu-secret-channel
+22:38:44 ** You have been invited to #hacklu-secret-channel by barmixing-bot
 ```
 
 Joining `#hacklu-secret-channel` reveals the flag in the topic:
