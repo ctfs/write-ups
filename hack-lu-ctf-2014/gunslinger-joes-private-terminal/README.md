@@ -120,3 +120,10 @@ The flag is `flag{joe_thought_youd_suck_at_bash}`.
 ## Other write-ups and resources
 
 * none yet
+* 
+##Write-up
+
+alternative way: 
+
+$ . *
+: ./FLAG: line 1: flag{joe_thought_youd_suck_at_bash}: command not found
