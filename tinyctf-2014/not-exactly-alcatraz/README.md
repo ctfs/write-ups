@@ -39,7 +39,10 @@ baby@sics:~$
 
 The script evaluates any Python code we enter, as long as it doesn’t contain the blacklisted words `import`, `open`, `flag`, `eval`, or `exec`. We need to find a way to break out of the sandbox and still read files.
 
-One possible solution is the following:
+The easiest solution is to use `file` instead of `open`: `file('/home/pybaby/fl\x61g.txt').read()`.
+
+
+An other possible solution is the following:
 
 ```python
 __builtins__.__dict__['ZXZhbA=='.decode('base64')]('b3BlbignL2hvbWUvcHliYWJ5L2ZsYWcudHh0JykucmVhZCgp'.decode('base64'))
