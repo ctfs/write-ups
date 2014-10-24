@@ -137,6 +137,15 @@ $ . *
 
 It’s still an error, but at least it delivers.
 
+One of the other ways is Using an encoding.Bash supports Octal encoding. We can get the flag by typing
+
+Octal equivalent of string "FLAG" is $'\106\114\101\107'
+
+```bash
+$ . filename $'\106\114\101\107'
+./FLAG: line 1: flag{joe_thought_youd_suck_at_bash}: command not found
+```
+
 ## Other write-ups and resources
 
 * none yet
