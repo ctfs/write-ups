@@ -137,6 +137,13 @@ $ . *
 
 It’s still an error, but at least it delivers.
 
+### Another solution
+To encode "cat" in octal and pass FLAG file to stdin.
+```
+$ $'\143'$'\141'$'\164' <????
+flag{joe_thought_youd_suck_at_bash}
+```
+
 ## Other write-ups and resources
 
 * none yet
