@@ -21,3 +21,4 @@
 ## Other write-ups and resources
 
 * [Exploit in Python by @TheJH](thejh_exploit.py)
+* [Writeup by Tasteless](http://tasteless.se/2014/10/hack-lu-ctf-2014-callgate/)
