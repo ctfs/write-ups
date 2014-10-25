@@ -14,6 +14,6 @@
 (TODO)
 
 ## Other write-ups and resources
-
+* [Exploit Code written in Python by H4rryp0tt3r](https://github.com/H4rryp0tt3r/write-ups/blob/master/hack-lu-ctf-2014/daltons-corporate-security-safe-for-business/Exploit_Dalton_Security.py)
 * <http://s0beit.me/ctf/hack-lu-writeup-dalton-security/>
 * <http://www.mrt-prodz.com/blog/view/2014/10/hacklu-ctf-2014---dalton-corporate-security-safe-for-business-200pts-writeup/>
