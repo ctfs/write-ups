@@ -28,3 +28,4 @@
 ## Other write-ups and resources
 
 * [Exploit in Perl by @_cutz](exploit-by-cutz.pl)
+* [writeup and exploit by jhector](https://github.com/jhector/breakout)
