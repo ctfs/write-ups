@@ -29,4 +29,4 @@
 
 ## Other write-ups and resources
 
-* none yet
+* [Writeup by jhector](https://github.com/jhector/big-jims-map)
