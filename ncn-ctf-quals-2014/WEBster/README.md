@@ -1,6 +1,6 @@
 # NoConName 2014 Quals: WEBster
 
-**Category:** WEB
+**Category:** Web
 **Points:** 200
 **Description:**
 
