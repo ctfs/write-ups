@@ -8,7 +8,7 @@ Super secure cloud service.
 
 ## Write-up
 
-http://blogs.tunelko.com/2014/09/15/webster-no-con-name-2014-ctf-quals/
+<http://blogs.tunelko.com/2014/09/15/webster-no-con-name-2014-ctf-quals/>
 
 Flag: NCN_f528764d624db129b32c21fbca0cb8d6
 

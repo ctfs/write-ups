@@ -8,7 +8,7 @@ No hints :( just go and get the flag.
 
 ## Write-up
 
-(Here's a shorter writeup by the Balalaika crew: http://ctfcrew.org/writeup/65)
+(Here's a shorter writeup by the Balalaika crew: <http://ctfcrew.org/writeup/65>)
 
 The file has no extension, but using the "file" command we find out it's a gzip archive and the original name is "ctf.py.gz".
 

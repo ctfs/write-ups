@@ -8,7 +8,7 @@ No hints :( just go and get the flag.
 
 ## Write-up
 
-(Here's a shorter writeup by the Balalaika crew: http://ctfcrew.org/writeup/67)
+(Here's a shorter writeup by the Balalaika crew: <http://ctfcrew.org/writeup/67>)
 
 First let's determine the file type...
 
