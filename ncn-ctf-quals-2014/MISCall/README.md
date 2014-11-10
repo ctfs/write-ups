@@ -4,6 +4,8 @@
 **Points:** 100
 **Description:**
 
+No hints :( just go and get the flag.
+
 ## Write-up
 
 First let's determine the file type...
