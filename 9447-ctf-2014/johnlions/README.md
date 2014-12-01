@@ -12,4 +12,5 @@
 
 ## Other write-ups and resources
 
-* none yet
+* [Hypnosec's write up](https://github.com/hypnosec/writeups/blob/master/2014/9447-ctf/exploitation/johnlions.md) (courtesy of cyphar).
+* ...
