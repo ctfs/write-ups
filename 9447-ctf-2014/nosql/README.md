@@ -17,4 +17,8 @@
 
 ## Other write-ups and resources
 
+<<<<<<< HEAD
 * none yet
+=======
+* http://tasteless.se/2014/12/9447-ctf-2014-nosql/
+>>>>>>> d8f669f2b80eec42be88358b37619f4278e0c98a
