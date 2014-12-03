@@ -4,6 +4,9 @@
 **Points:** 250
 **Description:**
 
+<<<<<<< HEAD
+> TODO
+=======
 > Axel Gembe is at it again. This time he's got his hands on Doom6, fresh off the alpha shelf at EA studios. Beat the game to complete the challenge.
 >
 > **Usage:**
@@ -15,6 +18,7 @@
 > ```
 >
 > [`doom6.zip`](doom6.zip)
+>>>>>>> d8f669f2b80eec42be88358b37619f4278e0c98a
 
 ## Write-up
 

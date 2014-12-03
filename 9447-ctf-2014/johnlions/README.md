@@ -4,6 +4,17 @@
 **Points:** 250
 **Description:**
 
+<<<<<<< HEAD
+> TODO
+
+## Write-up
+
+(TODO)
+
+## Other write-ups and resources
+
+* none yet
+=======
 > telnet johnlions.9447.plumbing
 > login ctf
 >
@@ -39,3 +50,4 @@ total 134
 
 * [Write-up by hypnosec](https://github.com/hypnosec/writeups/blob/master/2014/9447-ctf/exploitation/johnlions.md)
 * [Write-up + exploit by Ricky Zhou](https://rzhou.org/~ricky/9447_2014/johnlions/)
+>>>>>>> d8f669f2b80eec42be88358b37619f4278e0c98a

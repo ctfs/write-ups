@@ -7,6 +7,16 @@
 > [travels of a lonely cloud](http://ramble.9447.plumbing:8888/)
 >
 > [`server.js`](server.js)
+<<<<<<< HEAD
+
+## Write-up
+
+(TODO)
+
+## Other write-ups and resources
+
+* none yet
+=======
 >
 > **Hint!** JS has interesting scoping properties…
 
@@ -93,3 +103,4 @@ Below are some possible ways to successfully exploit this challenge.
 * [Exploit by Ymgve that leaks `/flag` piece by piece](https://gist.github.com/anonymous/fa48e7657ddf9d4f9d6d)
 * [Exploit by HoLyVieR using a timing attack + blind Shellshock injection](https://gist.github.com/jghkdgha/0a40941cdb072bfe269f)
 * [Exploit by cyberguru - execute command with one query](http://pastebin.com/nGGTNt6K)
+>>>>>>> d8f669f2b80eec42be88358b37619f4278e0c98a

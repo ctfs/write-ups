@@ -10,6 +10,13 @@ Flags are of the format `9447{[0-9a-zA-Z_]+}`. Please submit the entire flag, in
 
 ## Completed write-ups
 
+<<<<<<< HEAD
+* none yet
+
+## Incomplete write-ups
+
+* none yet
+=======
 * [bashful](bashful)
 * [insanity_check](insanity_check)
 * [ramble](ramble)
@@ -37,3 +44,4 @@ Flags are of the format `9447{[0-9a-zA-Z_]+}`. Please submit the entire flag, in
 * [rolling](rolling)
 * [securestore](securestore)
 * [shmap](shmap)
+>>>>>>> d8f669f2b80eec42be88358b37619f4278e0c98a
