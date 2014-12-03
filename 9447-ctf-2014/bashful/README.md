@@ -110,4 +110,8 @@ $ cat token
 
 * <https://github.com/hypnosec/writeups/blob/master/2014/9447-ctf/web/bashful.md>
 * <http://tasteless.se/2014/12/9447-security-society-ctf-2014-bashful-and-coffee-writeup/>
+<<<<<<< HEAD
 >>>>>>> d8f669f2b80eec42be88358b37619f4278e0c98a
+=======
+* <https://ucs.fbi.h-da.de/writeup-9447-bashful/>
+>>>>>>> ac2cd7b92453596d2a30b3f0c4374a6e9c0f7600
