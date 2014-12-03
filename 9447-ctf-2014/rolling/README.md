@@ -23,3 +23,5 @@
 
 * <https://ucs.fbi.h-da.de/writeup-9447-rolling/>
 * <http://dropkickblog.blogspot.com/2014/12/rolling-reversing-100-9447-ctf-201.html>
+* <http://theevilbit.blogspot.in/2014/12/9447-ctf-2014-writeup-reversing-125100.html>
+
