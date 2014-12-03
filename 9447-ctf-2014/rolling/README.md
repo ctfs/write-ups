@@ -22,3 +22,4 @@
 ## Other write-ups and resources
 
 * <https://ucs.fbi.h-da.de/writeup-9447-rolling/>
+* <http://dropkickblog.blogspot.com/2014/12/rolling-reversing-100-9447-ctf-201.html>
