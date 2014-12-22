@@ -19,4 +19,5 @@ The flag is `9447{This_is_a_flag}`.
 
 ## Other write-ups and resources
 
-* none yet
+* <http://nandynarwhals.org/2014/12/02/9447-ctf-2014-insanity_check-reversing/>
+* <http://theevilbit.blogspot.com/2014/12/9447-ctf-2014-writeup-reversing-125100.html>
