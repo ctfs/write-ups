@@ -19,5 +19,6 @@
 
 ## Other write-ups and resources
 
+* http://kitctf.de/writeups/31c3-ctf/saas/
 * Challenge source: [source.tar.gz](source.tar.gz)
 * Challenge exploit: [exploit.tar.gz](exploit.tar.gz)
