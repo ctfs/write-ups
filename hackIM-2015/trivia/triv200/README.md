@@ -1,5 +1,19 @@
-Image represents a randomness from the last night. Help us find the flag hidden behind.
+# Trivia-200
+# HackIM CTF 2014: trivia 200
 
+**Category:** trivia
+**Points:** 200
+**Solves:** ?
+**Description:**
 
+> Image represents a randomness from the last night. Help us find the flag hidden behind.
+>
+>	[Trivia-200.png](Trivia-200.PNG)
 
-Trivia-200.png
+## Write-up
+
+(TODO)
+
+## Other write-ups and resources
+
+* none yet
