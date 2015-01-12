@@ -1,4 +1,3 @@
-# Crypto-100-1
 # HackIM CTF 2014: crypto 100 - 1
 
 **Category:** crypto

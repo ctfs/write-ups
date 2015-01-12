@@ -1,4 +1,3 @@
-# Crypto-300
 # HackIM CTF 2014: crypto 300
 
 **Category:** crypto

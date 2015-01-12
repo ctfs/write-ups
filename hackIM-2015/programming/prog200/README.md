@@ -1,4 +1,3 @@
-# Progrmaming-200
 # HackIM CTF 2014: programming 200
 
 **Category:** prorgramming

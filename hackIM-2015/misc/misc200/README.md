@@ -1,4 +1,3 @@
-# Misc-200
 # HackIM CTF 2014: misc 200
 
 **Category:** misc

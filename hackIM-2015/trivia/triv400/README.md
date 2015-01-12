@@ -1,4 +1,3 @@
-# Trivia-400
 # HackIM CTF 2014: trivia 400
 
 **Category:** trivia

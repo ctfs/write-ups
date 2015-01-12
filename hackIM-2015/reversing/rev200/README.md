@@ -1,4 +1,3 @@
-# Reversing-200
 # HackIM CTF 2014: reversing 200
 
 **Category:** reversing

@@ -1,4 +1,3 @@
-# Forensics-300
 # HackIM CTF 2014: forensics 300
 
 **Category:** forensics

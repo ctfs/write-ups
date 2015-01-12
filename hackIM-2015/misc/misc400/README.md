@@ -1,4 +1,3 @@
-# Misc-400
 # HackIM CTF 2014: misc 400
 
 **Category:** misc

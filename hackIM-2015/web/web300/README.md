@@ -1,4 +1,3 @@
-# Web-300
 # HackIM CTF 2014: web 300
 
 **Category:** web

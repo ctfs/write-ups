@@ -1,4 +1,3 @@
-# Web-500
 # HackIM CTF 2014: web 500
 
 **Category:** web

@@ -1,4 +1,3 @@
-# Programming-500
 # HackIM CTF 2014: programming 500
 
 **Category:** programming

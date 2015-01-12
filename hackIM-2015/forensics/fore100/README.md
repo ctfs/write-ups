@@ -1,4 +1,3 @@
-# Forensics-100
 # HackIM CTF 2014: forensics 100
 
 **Category:** forensics

@@ -1,4 +1,3 @@
-# Web-100
 # HackIM CTF 2014: web 100
 
 **Category:** web

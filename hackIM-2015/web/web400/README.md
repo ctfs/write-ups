@@ -1,4 +1,3 @@
-# Web-400
 # HackIM CTF 2014: web 400
 
 **Category:** web
