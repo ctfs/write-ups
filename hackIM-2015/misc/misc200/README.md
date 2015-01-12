@@ -1,3 +1,19 @@
-Find out whats hidden in this garbage IP PORT - 54.165.191.231:2909 
+# Misc-200
+# HackIM CTF 2014: misc 200
 
-Flag format: flag{flag}
+**Category:** misc
+**Points:** 200
+**Solves:** ?
+**Description:**
+
+> Find out whats hidden in this garbage IP PORT - 54.165.191.231:2909 
+>
+> Flag format: flag{flag}
+
+## Write-up
+
+(TODO)
+
+## Other write-ups and resources
+
+* none yet
