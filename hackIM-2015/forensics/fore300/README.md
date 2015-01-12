@@ -1,7 +1,21 @@
-Find the hidden key
+# Forensics-300
+# HackIM CTF 2014: forensics 300
 
-Flag format: flag{flag}
+**Category:** forensics
+**Points:** 300
+**Solves:** ?
+**Description:**
 
+> Find the hidden key
+>
+> Flag format: flag{flag}
+>
+> [FOR-300](FOR-300)
 
+## Write-up
 
-FOR-300
+(TODO)
+
+## Other write-ups and resources
+
+* none yet
