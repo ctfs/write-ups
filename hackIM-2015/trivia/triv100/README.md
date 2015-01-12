@@ -3,7 +3,6 @@
 
 **Category:** trivia
 **Points:** 100
-**Solves:** ?
 **Description:**
 
 > Let's hack and rename Reuben to \_\_\_.

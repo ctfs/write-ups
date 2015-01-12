@@ -3,7 +3,6 @@
 
 **Category:** programming
 **Points:** 400
-**Solves:** ?
 **Description:**
 
 > Decrypt Aldrich Killian City Map:

@@ -3,7 +3,6 @@
 
 **Category:** programming
 **Points:** 300
-**Solves:** ?
 **Description:**
 
 > Design GPS device:

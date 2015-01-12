@@ -3,7 +3,6 @@
 
 **Category:** trivia
 **Points:** 500
-**Solves:** ?
 **Description:**
 
 > Holy :O :O :O

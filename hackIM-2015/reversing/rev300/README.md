@@ -3,7 +3,6 @@
 
 **Category:** reversing
 **Points:** 300
-**Solves:** ?
 **Description:**
 
 >Sherlock's Method: Its made of Wood not Metal

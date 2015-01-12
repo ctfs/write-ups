@@ -3,7 +3,6 @@
 
 **Category:** web
 **Points:** 400
-**Solves:** ?
 **Description:**
 
 > Buy Nullcon Pass For Free. 

@@ -3,7 +3,6 @@
 
 **Category:** web
 **Points:** 300
-**Solves:** ?
 **Description:**
 
 > Find the keys to your home. [Flag: Updated]

@@ -3,7 +3,6 @@
 
 **Category:** crypto
 **Points:** 200
-**Solves:** ?
 **Description:**
 
 > Server running at: 54.165.191.231:2002

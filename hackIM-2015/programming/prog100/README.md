@@ -3,7 +3,6 @@
 
 **Category:** programming
 **Points:** 100
-**Solves:** ?
 **Description:**
 
 > Get Aldrich Killian's Coordinates:

@@ -3,7 +3,6 @@
 
 **Category:** reversing
 **Points:** 100
-**Solves:** ?
 **Description:**
 
 

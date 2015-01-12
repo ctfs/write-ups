@@ -3,7 +3,6 @@
 
 **Category:** programming
 **Points:** 500
-**Solves:** ?
 **Description:**
 
 > Capture Aldrich Killian:

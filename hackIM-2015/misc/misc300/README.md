@@ -3,7 +3,6 @@
 
 **Category:** misc
 **Points:** 300
-**Solves:** ?
 **Description:**
 
 > Do the math ! 

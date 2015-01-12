@@ -3,7 +3,6 @@
 
 **Category:** web
 **Points:** 200
-**Solves:** ?
 **Description:**
 
 > Let's see how good is your Chemistry with the Computer's. 

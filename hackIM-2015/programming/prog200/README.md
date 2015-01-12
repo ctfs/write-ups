@@ -3,7 +3,6 @@
 
 **Category:** prorgramming
 **Points:** 200
-**Solves:** ?
 **Description:**
 
 > Teleport Iron Man:

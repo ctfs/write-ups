@@ -3,7 +3,6 @@
 
 **Category:** forensics
 **Points:** 300
-**Solves:** ?
 **Description:**
 
 > Find the hidden key

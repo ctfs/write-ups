@@ -3,7 +3,6 @@
 
 **Category:** trivia
 **Points:** 300
-**Solves:** ?
 **Description:**
 
 > What is the version of Sharepoint running on an US based server with following details:

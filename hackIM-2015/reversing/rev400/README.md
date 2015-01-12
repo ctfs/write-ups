@@ -3,7 +3,6 @@
 
 **Category:** reversing
 **Points:** 400
-**Solves:** ?
 **Description:**
 
 >Here you go!

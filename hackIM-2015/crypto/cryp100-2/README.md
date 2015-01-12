@@ -3,7 +3,6 @@
 
 **Category:** crypto
 **Points:** 100
-**Solves:** ?
 **Description:**
 
 > A message has been intercepted from Alice to Bob. Decode and find the flag.

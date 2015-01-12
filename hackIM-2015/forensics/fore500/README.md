@@ -3,7 +3,6 @@
 
 **Category:** forensics
 **Points:** 500
-**Solves:** ?
 **Description:**
 
 > This image contains a pagefile. Can you tell the size of it (in bytes)? 

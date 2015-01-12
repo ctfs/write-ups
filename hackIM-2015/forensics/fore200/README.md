@@ -3,7 +3,6 @@
 
 **Category:** forensics
 **Points:** 200
-**Solves:** ?
 **Description:**
 
 > A friend of mine says his SSH server is super secure. Can you pls help me find the hidden message ?

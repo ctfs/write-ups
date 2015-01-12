@@ -3,7 +3,6 @@
 
 **Category:** crypto
 **Points:** 100
-**Solves:** ?
 **Description:**
 
 > Find the key: 

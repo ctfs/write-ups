@@ -3,7 +3,6 @@
 
 **Category:** web
 **Points:** 500
-**Solves:** ?
 **Description:**
 
 > Break the captcha! 

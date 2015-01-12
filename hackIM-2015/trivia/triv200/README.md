@@ -3,7 +3,6 @@
 
 **Category:** trivia
 **Points:** 200
-**Solves:** ?
 **Description:**
 
 > Image represents a randomness from the last night. Help us find the flag hidden behind.

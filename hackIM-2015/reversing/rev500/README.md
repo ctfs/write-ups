@@ -3,7 +3,6 @@
 
 **Category:** reversing
 **Points:** 500
-**Solves:** ?
 **Description:**
 
 > Be captain Sparrow and reach the shipwreck cove in the caribbean.

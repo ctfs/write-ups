@@ -3,7 +3,6 @@
 
 **Category:** misc
 **Points:** 400
-**Solves:** ?
 **Description:**
 
 > Find out the hidden gift in this SERVER : PORT - 54.165.191.231:2910 

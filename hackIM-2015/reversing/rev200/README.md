@@ -3,7 +3,6 @@
 
 **Category:** reversing
 **Points:** 200
-**Solves:** ?
 **Description:**
 
 >Not that Bob!
