@@ -7,11 +7,11 @@
 none
 ## Incomplete write-ups
 
-* [crypto100-1](crypto/crypto100-1)
-* [crypto100-2](crypto/crypto100-2)
-* [crypto200](crypto/crypto200)
-* [crypto300](crypto/crypto300)
-* [crypto500](crypto/crypto500)
+* [crypto100-1](crypto/cryp100-1)
+* [crypto100-2](crypto/cryp100-2)
+* [crypto200](crypto/cryp200)
+* [crypto300](crypto/cryp300)
+* [crypto500](crypto/cryp500)
 * [expl100](exploitation/expl100)
 * [expl200](exploitation/expl200)
 * [expl300](exploitation/expl300)
