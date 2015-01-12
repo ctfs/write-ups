@@ -1,7 +1,21 @@
-Break the captcha! 
+# Web-500
+# HackIM CTF 2014: web 500
 
-Flag format: flag{flag}
+**Category:** web
+**Points:** 500
+**Solves:** ?
+**Description:**
 
+> Break the captcha! 
+>
+> Flag format: flag{flag}
+>
+>	[captcha.php](54.165.191.231/captcha.php)
 
+## Write-up
 
-captcha.php
+(TODO)
+
+## Other write-ups and resources
+
+* none yet

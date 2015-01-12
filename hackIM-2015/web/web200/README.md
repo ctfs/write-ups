@@ -1,9 +1,23 @@
-Let's see how good is your Chemistry with the Computer's. 
+# Web-200
+# HackIM CTF 2014: web 200
 
-Schools may be hard, annoying and irritating but admit it, you're going to miss it now!!
+**Category:** web
+**Points:** 200
+**Solves:** ?
+**Description:**
 
-Flag format: flag{flag}
+> Let's see how good is your Chemistry with the Computer's. 
+>
+> Schools may be hard, annoying and irritating but admit it, you're going to miss it now!!
+>
+> Flag format: flag{flag}
+>
+>	[chemistryCheck.php](54.165.191.231/chemistryCheck.php)
 
+## Write-up
 
+(TODO)
 
-chemistryCheck.php
+## Other write-ups and resources
+
+* none yet
