@@ -15,6 +15,7 @@ All flags match this regular expression: `/^\w{31}=$/`.
 ## Completed write-ups
 
 * none yet
+* Will be published here: <https://github.com/HackerDom/>
 
 ## External write-ups only
 
