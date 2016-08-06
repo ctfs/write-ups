@@ -6,6 +6,10 @@
 
 > `choripan_ff53019a701f0124987ed3bf169a1635.2014.shallweplayaga.me 6910`
 
+## Source Code
+
+https://github.com/legitbs/choripan
+
 ## Write-up
 
 (TODO)
