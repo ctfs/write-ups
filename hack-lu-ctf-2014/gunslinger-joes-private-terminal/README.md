@@ -160,3 +160,10 @@ This works because `FLAG` is the first (and only) file with a name that is four 
 ## Other write-ups and resources
 
 * none yet
+* 
+##Write-up
+
+alternative way: 
+
+$ . *
+: ./FLAG: line 1: flag{joe_thought_youd_suck_at_bash}: command not found
