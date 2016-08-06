@@ -32,6 +32,8 @@ flag{exploitation_is_easy!}
 
 Alternatively, you could open the file in [IDA](https://www.hex-rays.com/products/ida/support/download.shtml) (which is what the challenge actually suggests if you run it) and click _View_ → _Open Subviews_ → _Strings_.
 
+Alternatively, just open the file with Notepad or some basic text editor and do a search for `flag{`.
+
 The flag is `exploitation_is_easy!`.
 
 ## Other write-ups and resources
